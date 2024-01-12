@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+header{
+    background-color: aqua;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.nav__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__item{
+    margin-left: 56px;
+}
+.nav__item a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero{
+    background-color: rgba(181, 217, 210, 0.36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1728px;
+    height: 864px;
+    flex-shrink: 0;
+    margin-left: -150px;
+}
+.img{
+    width: 1150px;
+    height: 738px;
+    flex-shrink: 0;
+}
+.hero__text1{
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hero__title{
+    color: rgba(0, 0, 0, 0.83);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero__text2{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btn{
+    width: 252px;
+    height: 72px;
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 35px;
+    background: #2A7361;
+}
+.home{
+    background: rgba(181, 217, 210, 0.36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -300px;
+}
+.home__inner{
+    width: 1728px;
+    height: 700px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home__text1{
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero__text2{
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.home__btn{
+    width: 252px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #2A7361;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.home__img1{
+    width: 200px;
+    height: 100px;
+}
+.home__img2{
+    width: 1000px;
+    height: 600px;
+}
+.our{
+    background: rgba(181, 217, 210, 0.36);
+    height: 4300px0
+}
+.title{
+    text-align: center;
+    padding: 40px;
+    color: #000;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text{
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.our__img{
+    margin-left: -110px;
+}
+.img__123{
+    width: 1500px;
+    height: 700px;
+}
+.massage{
+    height: 1500px;
+    flex-shrink: 0;
+    background: rgba(181, 217, 210, 0.36);
+}
+.massage__text{
+    text-align: center;
+    font-size: 70px;
+    padding: 100px;
+}
+.texxt1{
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.name{
+    width: 687px;
+    height: 74px;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FAFFFE;
+}
+.texxt2{
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.number{
+    width: 687px;
+    height: 74px;
+    flex-shrink: 0;
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    background: #FAFFFE;
+}
+.texxt3{
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.chat{
+    width: 687px;
+    height: 262px;
+    flex-shrink: 0;
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    background: #FAFFFE;
+}
+.massage__btn{
+    width: 429px;
+    height: 101px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    background: #2A7361;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 130px;
+}
+.massage__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -120px;
+}
+.img596{
+    width: 1000px;
+    height: 800px;
+    flex-shrink: 0;
+}
